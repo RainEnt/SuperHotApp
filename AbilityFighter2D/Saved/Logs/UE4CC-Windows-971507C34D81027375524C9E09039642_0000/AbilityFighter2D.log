@@ -240,10 +240,3 @@ LogInit: Object subsystem initialized
 [2017.05.19-04.24.16:118][ 77]LogOutputDevice:Error: ntdll.dll!0x0000000076D5C541
 [2017.05.19-04.24.16:118][ 77]LogOutputDevice:Error: 
 [2017.05.19-04.24.16:124][ 77]LogStats:                SubmitErrorReport -  0.000 s
-[2017.05.19-04.24.26:762][ 77]LogStats:                    SendNewReport - 10.638 s
-[2017.05.19-04.24.26:762][ 77]LogStats:             FDebug::EnsureFailed - 11.787 s
-[2017.05.19-04.25.09:900][ 77]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.05.19-04.25.09:900][ 77]SourceControl: Info [master 3cc509e] Check
-[2017.05.19-04.25.09:900][ 77]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
-[2017.05.19-04.25.09:900][ 77]SourceControl: Info  rewrite AbilityFighter2D/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap (75%)
-[2017.05.19-04.25.09:934][ 77]SourceControl: Info Commited [master 3cc509e] Check.

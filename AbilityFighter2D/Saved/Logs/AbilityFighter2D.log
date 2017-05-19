@@ -1,0 +1,113 @@
+﻿Log file open, 05/18/17 20:52:37
+LogInit:Display: Running engine for game: AbilityFighter2D
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-889134340) SRandInit(-889134340).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 5.508723
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.19-03.52.40:848][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.19-03.52.40:848][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.19-03.52.40:940][  0]LogInit: Computer: GOSU-HP
+[2017.05.19-03.52.40:940][  0]LogInit: User: gosu
+[2017.05.19-03.52.40:940][  0]LogInit: CPU Page size=65536, Cores=1
+[2017.05.19-03.52.40:940][  0]LogInit: High frequency timer resolution =3.704335 MHz
+[2017.05.19-03.52.40:941][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx)
+[2017.05.19-03.52.40:941][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.19-03.52.40:941][  0]LogMemory: Process Physical Memory: 261.56 MB used, 261.56 MB peak
+[2017.05.19-03.52.40:941][  0]LogMemory: Process Virtual Memory: 263.50 MB used, 263.50 MB peak
+[2017.05.19-03.52.40:941][  0]LogMemory: Physical Memory: 5332.30 MB used,  1780.12 MB free, 7112.42 MB total
+[2017.05.19-03.52.40:941][  0]LogMemory: Virtual Memory: 624.68 MB used,  1780.12 MB free, 8388608.00 MB total
+[2017.05.19-03.52.47:178][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.19-03.52.57:559][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.19-03.52.57:645][  0]LogD3D11RHI:    0. 'AMD Radeon HD 8470D' (Feature Level 11_0)
+[2017.05.19-03.52.57:645][  0]LogD3D11RHI:       992/0/3300 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.05.19-03.52.57:645][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.19-03.52.57:673][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.19-03.52.57:673][  0]LogD3D11RHI:     GPU DeviceId: 0x9996 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.19-03.52.57:673][  0]LogWindows: EnumDisplayDevices:
+[2017.05.19-03.52.57:674][  0]LogWindows:    0. 'AMD Radeon HD 8470D' (P:1 D:1)
+[2017.05.19-03.52.57:674][  0]LogWindows:    1. 'AMD Radeon HD 8470D' (P:0 D:0)
+[2017.05.19-03.52.57:675][  0]LogWindows:    2. 'AMD Radeon HD 8470D' (P:0 D:0)
+[2017.05.19-03.52.57:675][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2017.05.19-03.52.57:675][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.05.19-03.52.57:675][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.05.19-03.52.57:676][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2017.05.19-03.52.57:676][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 8470D
+[2017.05.19-03.52.57:676][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
+[2017.05.19-03.52.57:676][  0]LogD3D11RHI:      Driver Date: 8-3-2015
+[2017.05.19-03.52.57:676][  0]LogRHI: Texture pool is 694 MB (70% of 992 MB)
+[2017.05.19-03.52.57:772][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2017.05.19-03.52.57:784][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.19-03.52.57:804][  0]LogD3D11RHI: GPU Timing Frequency: 50.000000 (Debug: 2 1)
+[2017.05.19-03.52.57:805][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Dev/Unreal/AbilityFighter2D/Intermediate/Shaders/WorkingDirectory/3340/).
+[2017.05.19-03.52.57:827][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gosu/AppData/Local/Temp/UnrealShaderWorkingDir/3E1759E54856D259D130DFB0856C5189/'.
+[2017.05.19-03.52.57:827][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.19-03.53.18:533][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.19-03.53.18:706][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.19-03.53.18:865][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.19-03.53.19:308][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.19-03.53.19:688][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.19-03.53.19:843][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.19-03.53.20:008][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.19-03.53.20:218][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.19-03.53.20:435][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.19-03.53.20:684][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.19-03.53.21:089][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.19-03.53.21:285][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.19-03.53.21:593][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.19-03.53.21:875][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.19-03.53.22:156][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.19-03.53.22:706][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.19-03.53.22:706][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.19-03.53.23:129][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.19-03.53.24:125][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.19-03.53.24:195][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.19-03.53.24:457][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.19-03.53.24:808][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.19-03.53.25:092][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.19-03.53.25:494][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.19-03.53.25:494][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.19-03.53.32:298][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
